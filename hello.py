@@ -6,17 +6,17 @@ app = Flask(__name__)
 # ==================== Exercise 43 ====================
 @app.route('/ex43')
 def ex43():
-    return "Exercise 43: Flask Deployed on Render ✅"
+    return "Exercise 43: index page"
 
 # ==================== Exercise 44 ====================
 @app.route('/ex44')
 def ex44():
-    return "Exercise 44: Hello Flask!"
+    return "Exercise 44: Hello World!"
 
 # ==================== Exercise 45 ====================
 @app.route('/ex45/user/<username>')
 def ex45_user(username):
-    return f"Exercise 45: User {escape(username)}"
+    return f"Exercise 45: User Evonne"
 
 @app.route('/ex45/post/<int:post_id>')
 def ex45_post(post_id):
