@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise 48 - Double Number</title>
+</head>
+<body>
+    <h1>Exercise 48: Show double of the inputted number</h1>
+    
+    <h2>Input a number</h2>
+    <form action="/ex48" method="post">
+        <input type="number" name="x" required>
+        <button type="submit">Submit</button>
+    </form>
+    
+    {% if result is not none %}
+    <h3>Double Result: {{ result }}</h3>
+    {% endif %}
+</body>
+</html>
